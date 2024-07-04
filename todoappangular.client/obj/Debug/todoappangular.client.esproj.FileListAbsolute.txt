@@ -1,0 +1,1 @@
+C:\Users\Yigit\source\repos\ToDoAppAngular\todoappangular.client\obj\Debug\todoappangular.client.esproj.CoreCompileInputs.cache
