@@ -37,12 +37,10 @@ namespace Business.Concrete
         {
             return _toDoTaskRepository.GetById(id);
         }
-
-        public ToDoTask GetById(string id)
+        public ToDoTask GetByStrId(string id)
         {
-            return _toDoTaskRepository.GetById(id);
+            return _toDoTaskRepository.GetByStrId(id);
         }
-
         public void Update(ToDoTask entity)
         {
             _toDoTaskRepository.Update(entity); ;

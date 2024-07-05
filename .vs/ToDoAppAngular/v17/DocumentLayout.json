@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AFCCFEB-4AD3-4752-80BA-AC74893513E1}|Entities\\Entities.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\entities\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AFCCFEB-4AD3-4752-80BA-AC74893513E1}|Entities\\Entities.csproj|solutionrelative:entities\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C401DB20-89A4-436F-8F00-716F4014C009}|todoappangular.client\\todoappangular.client.esproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C401DB20-89A4-436F-8F00-716F4014C009}|todoappangular.client\\todoappangular.client.esproj|solutionrelative:todoappangular.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\concrete\\efcore\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcore\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\concrete\\efcore\\efcoregenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcore\\efcoregenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\concrete\\efcore\\efcoretodotaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcore\\efcoretodotaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\concrete\\efcore\\efcoregenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcore\\efcoregenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\business\\abstract\\itodotaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|solutionrelative:business\\abstract\\itodotaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\business\\concrete\\todotaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|solutionrelative:business\\concrete\\todotaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\abstract\\itodotaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\itodotaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\business\\concrete\\todotaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|solutionrelative:business\\concrete\\todotaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\business\\abstract\\itodotaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BF3B46-1F17-474F-A580-4AD7EF5534CF}|Business\\Business.csproj|solutionrelative:business\\abstract\\itodotaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\dataaccess\\concrete\\efcore\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CC6BA1-F1AD-426E-AA42-D47B565797AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcore\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFCCFEB-4AD3-4752-80BA-AC74893513E1}|Entities\\Entities.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\entities\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFCCFEB-4AD3-4752-80BA-AC74893513E1}|Entities\\Entities.csproj|solutionrelative:entities\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C401DB20-89A4-436F-8F00-716F4014C009}|todoappangular.client\\todoappangular.client.esproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C401DB20-89A4-436F-8F00-716F4014C009}|todoappangular.client\\todoappangular.client.esproj|solutionrelative:todoappangular.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9788F8-E0E0-47B7-BD24-DC23A974C12F}|ToDoAppAngular.Server\\ToDoAppAngular.Server.csproj|solutionrelative:todoappangular.server\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C401DB20-89A4-436F-8F00-716F4014C009}|todoappangular.client\\todoappangular.client.esproj|c:\\users\\yigit\\source\\repos\\todoappangular\\todoappangular.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "ToDoTask.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\Entities\\ToDoTask.cs",
               "RelativeDocumentMoniker": "Entities\\ToDoTask.cs",
@@ -78,25 +78,24 @@
               "RelativeToolTip": "Entities\\ToDoTask.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T08:37:59.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T08:37:59.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\ToDoAppAngular.Server\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "ToDoAppAngular.Server\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\ToDoAppAngular.Server\\Controllers\\TaskController.cs",
               "RelativeToolTip": "ToDoAppAngular.Server\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAMAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwCcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T07:08:56.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\todoappangular.client\\src\\index.html",
               "RelativeDocumentMoniker": "todoappangular.client\\src\\index.html",
@@ -104,12 +103,11 @@
               "RelativeToolTip": "todoappangular.client\\src\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-04T11:59:27.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:59:27.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\ToDoAppAngular.Server\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "ToDoAppAngular.Server\\Controllers\\TestController.cs",
@@ -121,100 +119,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\ToDoAppAngular.Server\\Program.cs",
               "RelativeDocumentMoniker": "ToDoAppAngular.Server\\Program.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\ToDoAppAngular.Server\\Program.cs",
               "RelativeToolTip": "ToDoAppAngular.Server\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAABAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:24:55.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T07:24:55.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ToDoContext.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\ToDoContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EfCore\\ToDoContext.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\ToDoContext.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EfCore\\ToDoContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:13:45.891Z"
+              "WhenOpened": "2024-07-04T07:13:45.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EfCoreToDoTaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\EfCoreToDoTaskRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EfCore\\EfCoreToDoTaskRepository.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\EfCoreToDoTaskRepository.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EfCore\\EfCoreToDoTaskRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAnAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA0wBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:13:30.841Z"
+              "WhenOpened": "2024-07-04T07:13:30.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "EfCoreGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\EfCoreGenericRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EfCore\\EfCoreGenericRepository.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Concrete\\EfCore\\EfCoreGenericRepository.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EfCore\\EfCoreGenericRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwCYAAAAMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwBsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:13:20.81Z"
+              "WhenOpened": "2024-07-04T07:13:20.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "IToDoTaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Abstract\\IToDoTaskRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IToDoTaskRepository.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Abstract\\IToDoTaskRepository.cs",
               "RelativeToolTip": "DataAccess\\Abstract\\IToDoTaskRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:09:31.826Z"
+              "WhenOpened": "2024-07-04T07:09:31.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Abstract\\IRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IRepository.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\DataAccess\\Abstract\\IRepository.cs",
               "RelativeToolTip": "DataAccess\\Abstract\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:09:20.076Z"
+              "WhenOpened": "2024-07-04T07:09:20.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "ToDoTaskManager.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\Business\\Concrete\\ToDoTaskManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\ToDoTaskManager.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\Business\\Concrete\\ToDoTaskManager.cs",
               "RelativeToolTip": "Business\\Concrete\\ToDoTaskManager.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwCoAAAAzAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:08:36.852Z"
+              "WhenOpened": "2024-07-04T07:08:36.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IToDoTaskService.cs",
               "DocumentMoniker": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\Business\\Abstract\\IToDoTaskService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IToDoTaskService.cs",
               "ToolTip": "C:\\Users\\Yigit\\source\\repos\\ToDoAppAngular\\Business\\Abstract\\IToDoTaskService.cs",
               "RelativeToolTip": "Business\\Abstract\\IToDoTaskService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAArAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:07:30.69Z"
+              "WhenOpened": "2024-07-04T07:07:30.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

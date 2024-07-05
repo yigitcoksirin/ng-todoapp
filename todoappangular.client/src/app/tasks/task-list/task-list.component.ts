@@ -20,13 +20,14 @@ export class TaskListComponent {
     this.taskService.getTasks().subscribe(data => {
       console.log(data);
       localStorage.setItem("tasks", JSON.stringify(data));
+      let lsTasks = localStorage.getItem("tasks")
+      if(lsTasks != null){
+        this._tasks = JSON.parse(lsTasks)
+        console.log(lsTasks)
+      }
     });
 
-    let lsTasks = localStorage.getItem("tasks")
-    if(lsTasks != null){
-      this._tasks = JSON.parse(lsTasks)
-      console.log(lsTasks)
-    }
+
   }
 
   addTask(taskText:any){
@@ -47,6 +48,7 @@ export class TaskListComponent {
       const task = this._tasks.find(t=>t.taskId == taskId);
       if(task){
         task.isDeleted = true;
+        localStorage.removeItem("tasks");
         localStorage.setItem("tasks", JSON.stringify(this._tasks));
       }
     } 

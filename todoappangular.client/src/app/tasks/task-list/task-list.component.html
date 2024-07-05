@@ -27,7 +27,7 @@
                                 <span>{{task.text}}</span>
                             </label>
                         </li>
-                        <a *ngIf="!task.isDeleted" style="float:right;" (click)="deleteTask(task.TaskId)" class="btn btn-danger mx-1 mt-2 mb-1 py-1">Delete</a>
+                        <a *ngIf="!task.isDeleted" style="float:right;" (click)="deleteTask(task.taskId)" class="btn btn-danger mx-1 mt-2 mb-1 py-1">Delete</a>
                         <a *ngIf="!task.isDeleted" style="float:right;" class="btn btn-success mt-2 mb-1 py-1">Update</a>
                     </div>
                 </ng-container>

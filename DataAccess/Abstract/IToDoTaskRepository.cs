@@ -9,6 +9,6 @@ namespace DataAccess.Abstract
 {
     public interface IToDoTaskRepository : IRepository<ToDoTask>
     {
-        public ToDoTask GetById(string id);
+        public ToDoTask GetByStrId(string id);
     }
 }

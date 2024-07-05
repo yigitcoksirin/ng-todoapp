@@ -25,5 +25,10 @@ namespace DataAccess.Concrete.EfCore
         {
             return context.Set<ToDoTask>().Find(id);
         }
+
+        public ToDoTask GetByStrId(string id)
+        {
+            return context.Set<ToDoTask>().Find(id);
+        }
     }
 }
