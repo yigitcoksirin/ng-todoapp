@@ -11,10 +11,12 @@ namespace Entities
     public class ToDoTask
     {
         [Key]
-        public int TaskId { get; set; }
+        public string TaskId { get; set; }
         public string Text { get; set; }
         public bool isCompleted { get; set; }
         [NotMapped]
         public bool isDeleted { get; set; }
+        [NotMapped]
+        public bool isNew { get; set; }
     }
 }

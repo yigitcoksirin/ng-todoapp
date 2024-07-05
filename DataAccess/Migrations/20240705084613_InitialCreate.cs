@@ -14,8 +14,7 @@ namespace DataAccess.Migrations
                 name: "ToDoTasks",
                 columns: table => new
                 {
-                    TaskId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TaskId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Text = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     isCompleted = table.Column<bool>(type: "bit", nullable: false)
                 },

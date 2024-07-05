@@ -10,6 +10,7 @@ namespace Business.Abstract
     public interface IToDoTaskService
     {
         public ToDoTask GetById(int id);
+        public ToDoTask GetById(string id);
         public List<ToDoTask> GetAll();
         public void Create(ToDoTask entity);
         public void Update(ToDoTask entity);

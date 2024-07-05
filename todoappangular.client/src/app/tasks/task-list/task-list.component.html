@@ -1,1 +1,42 @@
-<p>task-list works!</p>
+<br>
+<span class="h1">Tasks</span>
+<button type="button" (click)="saveChanges()" class="btn btn-success float-end">Save Changes</button>
+<hr>
+
+<div style="margin:0, auto;">
+    <div class="d-flex flex-row">
+        <div style="flex:6;">
+            <h4>Add Tasks</h4>
+            <hr />
+            <form>
+                <div class="input-group mb-3" style="max-width: 600px;">
+                    <input #taskText type="text" style="border-radius:5px;" class="form-control border border-1 border-dark" name="newTaskText" aria-describedby="basic-addon1" required>
+                    <div class="input-group-append mx-2">
+                        <button class="btn btn-success" (click)="addTask(taskText)" type="click">Add</button>
+                        <button class="btn btn-success mx-1" type="click">Save</button>
+                    </div>
+                </div>
+            </form>
+
+            <ul class="list-group" style="max-width: 600px;">
+                <ng-container *ngFor="let task of tasks; index as i">
+                    <div class="d-flex flex-row" *ngIf="!task.isDeleted">
+                        <li *ngIf="!task.isDeleted" class="list-group-item mt-1 border border-1 border-dark" style="width:400px; border-radius:5px;">
+                            <input class="form-check-input me-1" type="checkbox" id="{{i}}"/>
+                            <label class="form-check-label stretched-link mx-1" for="{{i}}">
+                                <span>{{task.Text}}</span>
+                            </label>
+                        </li>
+                        <a *ngIf="!task.isDeleted" style="float:right;" (click)="deleteTask(task.TaskId)" class="btn btn-danger mx-1 mt-2 mb-1 py-1">Delete</a>
+                        <a *ngIf="!task.isDeleted" style="float:right;" class="btn btn-success mt-2 mb-1 py-1">Update</a>
+                    </div>
+                </ng-container>
+            </ul>
+        </div>
+        <div style="flex:2;"></div>
+        <div style="flex:5;">
+            <h4>Status</h4>
+            <hr />
+        </div>
+    </div>
+</div>

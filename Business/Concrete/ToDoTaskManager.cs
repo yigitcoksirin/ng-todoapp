@@ -38,6 +38,11 @@ namespace Business.Concrete
             return _toDoTaskRepository.GetById(id);
         }
 
+        public ToDoTask GetById(string id)
+        {
+            return _toDoTaskRepository.GetById(id);
+        }
+
         public void Update(ToDoTask entity)
         {
             _toDoTaskRepository.Update(entity); ;

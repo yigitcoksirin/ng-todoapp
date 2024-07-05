@@ -23,11 +23,8 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Entities.ToDoTask", b =>
                 {
-                    b.Property<int>("TaskId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskId"));
+                    b.Property<string>("TaskId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Text")
                         .IsRequired()
