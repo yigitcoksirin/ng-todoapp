@@ -29,7 +29,10 @@ namespace ToDoAppAngular.Server.Controllers
         {
             for (var i = 0; i < tasks.Count; i++)
             {
-                Console.WriteLine(tasks[i].Text);
+                if (!tasks[i].isDeleted && tasks[i].isNew)
+                {
+                    _taskService.Create(tasks[i]);
+                }
             }
             return Ok();
         }

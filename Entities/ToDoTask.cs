@@ -11,8 +11,8 @@ namespace Entities
     public class ToDoTask
     {
         [Key]
-        public string TaskId { get; set; }
-        public string Text { get; set; }
+        public string taskId { get; set; }
+        public string text { get; set; }
         public bool isCompleted { get; set; }
         [NotMapped]
         public bool isDeleted { get; set; }

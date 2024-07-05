@@ -19,12 +19,12 @@
             </form>
 
             <ul class="list-group" style="max-width: 600px;">
-                <ng-container *ngFor="let task of tasks; index as i">
+                <ng-container *ngFor="let task of _tasks; index as i">
                     <div class="d-flex flex-row" *ngIf="!task.isDeleted">
                         <li *ngIf="!task.isDeleted" class="list-group-item mt-1 border border-1 border-dark" style="width:400px; border-radius:5px;">
                             <input class="form-check-input me-1" type="checkbox" id="{{i}}"/>
                             <label class="form-check-label stretched-link mx-1" for="{{i}}">
-                                <span>{{task.Text}}</span>
+                                <span>{{task.text}}</span>
                             </label>
                         </li>
                         <a *ngIf="!task.isDeleted" style="float:right;" (click)="deleteTask(task.TaskId)" class="btn btn-danger mx-1 mt-2 mb-1 py-1">Delete</a>

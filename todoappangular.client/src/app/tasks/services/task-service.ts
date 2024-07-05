@@ -16,7 +16,7 @@ export class TaskService {
         return this.http.get<ToDoTask[]>(this.url + "get-tasks");
     }
 
-    saveChanges(tasks:ToDoTask[]):Observable<ToDoTask>{
-        return this.http.post<ToDoTask>(this.url + "save-changes", tasks);
+    saveChanges(tasks:ToDoTask[]){
+        return this.http.post<ToDoTask[]>(this.url + "save-changes", tasks);
     }
 }

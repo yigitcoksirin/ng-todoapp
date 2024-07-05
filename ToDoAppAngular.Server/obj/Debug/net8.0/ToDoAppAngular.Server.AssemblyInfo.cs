@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAppAngular.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bc206feb39367a2210a512bb5d8d4c82fbc7f93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f405f1d723dc79272b9f3d603e91aaa2fafe92e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAppAngular.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAppAngular.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

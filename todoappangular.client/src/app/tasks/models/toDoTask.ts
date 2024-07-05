@@ -1,7 +1,7 @@
 
 export interface ToDoTask{
-    TaskId:string;
-    Text:string;
+    taskId:string;
+    text:string;
     isCompleted:boolean;
     isDeleted:boolean;
     isNew: boolean;

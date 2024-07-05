@@ -16,18 +16,23 @@ export class TaskListComponent {
 
   ngOnInit():void {
     localStorage.removeItem("tasks");
-    this._tasks = [
-      {TaskId: crypto.randomUUID(), Text: "task1", isCompleted:false, isDeleted: false, isNew: true},
-      {TaskId: crypto.randomUUID(), Text: "task2", isCompleted:false, isDeleted: false, isNew: true},
-      {TaskId: crypto.randomUUID(), Text: "task3", isCompleted:false, isDeleted: false, isNew: true}
-    ];
-    localStorage.setItem("tasks", JSON.stringify(this._tasks));
+    
+    this.taskService.getTasks().subscribe(data => {
+      console.log(data);
+      localStorage.setItem("tasks", JSON.stringify(data));
+    });
+
+    let lsTasks = localStorage.getItem("tasks")
+    if(lsTasks != null){
+      this._tasks = JSON.parse(lsTasks)
+      console.log(lsTasks)
+    }
   }
 
   addTask(taskText:any){
     const task:ToDoTask = {
-      TaskId: crypto.randomUUID(),
-      Text: taskText.value,
+      taskId: crypto.randomUUID(),
+      text: taskText.value,
       isCompleted: false,
       isDeleted: false,
       isNew: true,
@@ -37,9 +42,9 @@ export class TaskListComponent {
     taskText.value = "";
   }
 
-  deleteTask(TaskId:string){
-    if(TaskId){
-      const task = this._tasks.find(t=>t.TaskId == TaskId);
+  deleteTask(taskId:string){
+    if(taskId){
+      const task = this._tasks.find(t=>t.taskId == taskId);
       if(task){
         task.isDeleted = true;
         localStorage.setItem("tasks", JSON.stringify(this._tasks));
@@ -48,9 +53,12 @@ export class TaskListComponent {
   }
 
   saveChanges(){
-    var tasks = localStorage.getItem("tasks");
+    let tasks = localStorage.getItem("tasks");
     if (tasks){
-      this.taskService.saveChanges(tasks);
+      this.taskService.saveChanges(JSON.parse(tasks)).subscribe({
+        next: () => console.log("Saved!"),
+        error: (error) => console.log(error)
+      });
     }
   }
 }
