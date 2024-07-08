@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <br>
 <span class="h1">Tasks</span>
 <button type="button" (click)="saveChanges()" class="btn btn-success float-end">Save Changes</button>
@@ -10,10 +11,10 @@
             <hr />
             <form>
                 <div class="input-group mb-3" style="max-width: 600px;">
-                    <input #taskText type="text" style="border-radius:5px;" class="form-control border border-1 border-dark" name="newTaskText" aria-describedby="basic-addon1" required>
+                    <input [(ngModel)]="taskText" type="text" style="border-radius:5px;" class="form-control border border-1 border-dark" name="newTaskText" aria-describedby="basic-addon1" required>
                     <div class="input-group-append mx-2">
-                        <button class="btn btn-success" (click)="addTask(taskText)" type="click">Add</button>
-                        <button class="btn btn-success mx-1" type="click">Save</button>
+                        <button *ngIf="!isUpdating" class="btn btn-success" (click)="addTask()" type="click">Add</button>
+                        <button *ngIf="isUpdating" class="btn btn-success mx-1" (click)="updateTask()" type="click">Save</button>
                     </div>
                 </div>
             </form>
@@ -22,21 +23,35 @@
                 <ng-container *ngFor="let task of _tasks; index as i">
                     <div class="d-flex flex-row" *ngIf="!task.isDeleted">
                         <li *ngIf="!task.isDeleted" class="list-group-item mt-1 border border-1 border-dark" style="width:400px; border-radius:5px;">
-                            <input class="form-check-input me-1" type="checkbox" id="{{i}}"/>
+                            <input (click)="checkTask(task)" [checked]="task.isCompleted" class="form-check-input me-1" type="checkbox" id="{{i}}"/>
                             <label class="form-check-label stretched-link mx-1" for="{{i}}">
                                 <span>{{task.text}}</span>
                             </label>
                         </li>
                         <a *ngIf="!task.isDeleted" style="float:right;" (click)="deleteTask(task.taskId)" class="btn btn-danger mx-1 mt-2 mb-1 py-1">Delete</a>
-                        <a *ngIf="!task.isDeleted" style="float:right;" class="btn btn-success mt-2 mb-1 py-1">Update</a>
+                        <a *ngIf="!task.isDeleted" style="float:right;" (click)="toggleUpdateMode(task)" class="btn btn-success mt-2 mb-1 py-1">Update</a>
                     </div>
                 </ng-container>
             </ul>
         </div>
         <div style="flex:2;"></div>
         <div style="flex:5;">
-            <h4>Status</h4>
+            <div class="d-block" style="flex-direction: row;">
+                <span class="h4">Status</span>
+                <p style="float:right; font-size: larger;">{{isModifiedMessage}}</p>
+            </div>
             <hr />
+            <div class="list-group my-1" style="cursor:default;" *ngFor="let task of _tasks;">
+                <div class="list-group-item list-group-item-action border border-1 border-dark" style="border-radius:5px;" *ngIf="!task.isDeleted" [ngSwitch]="task.isCompleted"
+                    [ngClass]="{'list-group-item-success': task.isCompleted, 'list-group-item-warning': !task.isCompleted}">
+                    <span *ngSwitchCase="true">
+                        The Task "{{task.text}}" has been completed.
+                    </span>
+                    <span *ngSwitchCase="false">
+                        The Task "{{task.text}}" has not been completed.
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </div>

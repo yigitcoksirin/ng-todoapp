@@ -18,5 +18,9 @@ namespace Entities
         public bool isDeleted { get; set; }
         [NotMapped]
         public bool isNew { get; set; }
+        [NotMapped]
+        public bool isUpdated { get; set; }
+
+
     }
 }

@@ -26,7 +26,7 @@ namespace DataAccess.Migrations
                     b.Property<string>("taskId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<bool>("isCompleted")
+                    b.Property<bool>("isChecked")
                         .HasColumnType("bit");
 
                     b.Property<string>("text")

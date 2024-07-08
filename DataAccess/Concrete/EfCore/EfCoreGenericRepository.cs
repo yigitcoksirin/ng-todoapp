@@ -25,6 +25,7 @@ namespace DataAccess.Concrete.EfCore
 
         public void Delete(TEntity entity)
         {
+            context.ChangeTracker.Clear();
             context.Set<TEntity>().Remove(entity);
             context.SaveChanges();
         }
@@ -41,6 +42,7 @@ namespace DataAccess.Concrete.EfCore
 
         public void Update(TEntity entity)
         {
+            context.ChangeTracker.Clear();
             context.Entry(entity).State = EntityState.Modified;
             context.SaveChanges();
         }

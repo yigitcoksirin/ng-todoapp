@@ -21,7 +21,12 @@ namespace ToDoAppAngular.Server.Controllers
         [Route("get-tasks")]
         public ActionResult<IEnumerable<ToDoTask>> GetTasks()
         {
-            return _taskService.GetAll();
+            var tasks = _taskService.GetAll();
+            if (tasks != null)
+            {
+                return tasks;
+            }
+            return Ok();
         }
 
         [HttpPost]
@@ -31,13 +36,25 @@ namespace ToDoAppAngular.Server.Controllers
             var tasksToDelete = new List<ToDoTask>();
             for (var i = 0; i < tasks.Count; i++)
             {
+                //if not deleted and created => create
                 if (!tasks[i].isDeleted && tasks[i].isNew)
                 {
                     _taskService.Create(tasks[i]);
                 }
-                if (tasks[i].isDeleted && _taskService.GetByStrId(tasks[i].taskId) != null)
+
+                //if it exists on db...
+                if (_taskService.GetByStrId(tasks[i].taskId) != null)
                 {
-                    _taskService.Delete(tasks[i]);
+                    //if deleted and it exists on db => delete
+                    if (tasks[i].isDeleted)
+                    {
+                        _taskService.Delete(tasks[i]);
+                    }
+                    else
+                    {
+                        _taskService.Update(tasks[i]);
+                    }
+
                 }
             }
             return Ok();

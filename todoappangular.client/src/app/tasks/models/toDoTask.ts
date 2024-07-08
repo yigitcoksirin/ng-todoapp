@@ -4,5 +4,6 @@ export interface ToDoTask{
     text:string;
     isCompleted:boolean;
     isDeleted:boolean;
+    isUpdated:boolean;
     isNew: boolean;
 }
